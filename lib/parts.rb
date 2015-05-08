@@ -80,7 +80,7 @@ module Parts
         part << "Content-Type: #{type}\r\n"
       end
 
-      part << "Content-Transfer-Encoding: #{trans_encoding}\r\n"
+      # part << "Content-Transfer-Encoding: #{trans_encoding}\r\n"
       part << "\r\n"
     end
   end
